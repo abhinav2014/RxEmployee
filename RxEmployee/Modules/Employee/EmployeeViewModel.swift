@@ -19,7 +19,7 @@ class EmployeeViewModel {
     func fetchEmployeeData() {
         let dataManager = LocalDataManagerImpl()
         
-        let data = dataManager.fetchJsonData()
+        let data = dataManager.fetchEmployees(companyId: 1)
         
         datasource.onNext(data)
         datasource.onCompleted()

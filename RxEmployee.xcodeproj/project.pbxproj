@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37A31C432970122C0051DFAC /* JSONSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A31C422970122C0051DFAC /* JSONSerialization.swift */; };
+		37A31C47297014430051DFAC /* EmpData.json in Resources */ = {isa = PBXBuildFile; fileRef = 37A31C46297014430051DFAC /* EmpData.json */; };
+		37A31C49297018E10051DFAC /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A31C48297018E10051DFAC /* CompanyModel.swift */; };
 		37C1E1ED296EE6A1001627CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C1E1EC296EE6A1001627CA /* AppDelegate.swift */; };
 		37C1E1EF296EE6A1001627CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C1E1EE296EE6A1001627CA /* SceneDelegate.swift */; };
 		37C1E1F4296EE6A1001627CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C1E1F2296EE6A1001627CA /* Main.storyboard */; };
@@ -49,6 +52,9 @@
 
 /* Begin PBXFileReference section */
 		2801848795C8D833A8DC3769 /* Pods_RxEmployee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxEmployee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A31C422970122C0051DFAC /* JSONSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONSerialization.swift; sourceTree = "<group>"; };
+		37A31C46297014430051DFAC /* EmpData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EmpData.json; sourceTree = "<group>"; };
+		37A31C48297018E10051DFAC /* CompanyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyModel.swift; sourceTree = "<group>"; };
 		37C1E1E9296EE6A1001627CA /* RxEmployee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxEmployee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C1E1EC296EE6A1001627CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37C1E1EE296EE6A1001627CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -235,6 +241,8 @@
 			children = (
 				37C1E230296EFA9B001627CA /* Coordinator.swift */,
 				37F203AC296FCFE9009A18E9 /* LocalDataManager.swift */,
+				37A31C422970122C0051DFAC /* JSONSerialization.swift */,
+				37A31C46297014430051DFAC /* EmpData.json */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -252,6 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				37F203AF296FD2D6009A18E9 /* EmployeeModel.swift */,
+				37A31C48297018E10051DFAC /* CompanyModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -376,6 +385,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A31C47297014430051DFAC /* EmpData.json in Resources */,
 				37C1E1F9296EE6A4001627CA /* LaunchScreen.storyboard in Resources */,
 				37C1E1F6296EE6A4001627CA /* Assets.xcassets in Resources */,
 				37C1E1F4296EE6A1001627CA /* Main.storyboard in Resources */,
@@ -526,6 +536,7 @@
 				37C1E224296EF712001627CA /* LoginViewController.swift in Sources */,
 				37C1E1ED296EE6A1001627CA /* AppDelegate.swift in Sources */,
 				37C1E22D296EF7B2001627CA /* EmployeeViewModel.swift in Sources */,
+				37A31C49297018E10051DFAC /* CompanyModel.swift in Sources */,
 				37F203B0296FD2D6009A18E9 /* EmployeeModel.swift in Sources */,
 				37C1E22F296EF7BF001627CA /* EmployeeDetailsViewModel.swift in Sources */,
 				37F203AD296FCFE9009A18E9 /* LocalDataManager.swift in Sources */,
@@ -533,6 +544,7 @@
 				37C1E229296EF754001627CA /* EmployeeDetailsViewController.swift in Sources */,
 				37C1E226296EF736001627CA /* EmployeesViewController.swift in Sources */,
 				37C1E1EF296EE6A1001627CA /* SceneDelegate.swift in Sources */,
+				37A31C432970122C0051DFAC /* JSONSerialization.swift in Sources */,
 				37C1E231296EFA9B001627CA /* Coordinator.swift in Sources */,
 				37F203AB296FCD64009A18E9 /* EmployeeCell.swift in Sources */,
 			);

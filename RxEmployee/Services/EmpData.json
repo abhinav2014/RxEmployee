@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name" : "ABC Inc",
+        "username": "abc",
+        "password" : "qwerty",
+        "employees" : [{
+            "id": 1,
+            "name": "Abhinav",
+            "designation": "iOS developer",
+            "department": "Engineering",
+            "image": "https://img.a.transfermarkt.technology/portrait/header/3139-1459504284.jpg?lm=1"
+        },
+        {
+            "id": 2,
+            "name": "Rajat",
+            "designation": "Business Analyst",
+            "department": "Business",
+            "image": "https://scontent.fdel27-2.fna.fbcdn.net/v/t1.6435-9/190514302_355308455961529_4338904842054572540_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=0rV25qnuTK0AX8cGFc1&_nc_ht=scontent.fdel27-2.fna&oh=00_AfC895aPLwz0avhyWS9Sn4FquDUAcE3xXeTO_C6NKxP1HA&oe=63E77A6D"
+        },
+        {
+            "id": 3,
+            "name": "Madhur",
+            "designation": "Android developer",
+            "department": "Engineering",
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/7/75/Manoj_Bajpai_at_52nd_IFFI.jpg"
+        }]
+    },
+    {
+        "id": 2,
+        "name" : "BCD Inc",
+        "username": "bcd",
+        "password" : "ytrewq",
+        "employees" : [{
+            "id": 1,
+            "name": "Abhinav"
+        },
+        {
+            "id": 2,
+            "name": "Rajat"
+        },
+        {
+            "id": 3,
+            "name": "Madhur"
+        }]
+    }
+]

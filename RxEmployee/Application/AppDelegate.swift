@@ -14,6 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        saveInitialData()
         return true
     }
 
@@ -34,3 +36,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate {
+    func saveInitialData() {
+        // Add condition if skip if data is already there
+        if let path = Bundle.main.path(forResource: "EmpData", ofType: "json") {
+            do {
+                  let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+                  let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
+                  try JSONSerialization.save(jsonObject: jsonResult, toFilename: jsonFile)
+            } catch {
+                print(error.localizedDescription)
+              }
+        }
+    }
+}
