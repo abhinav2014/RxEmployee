@@ -9,6 +9,7 @@ target 'RxEmployee' do
     pod 'RxSwift', '6.5.0'
     pod 'RxCocoa', '6.5.0'
     pod 'RxDataSources'
+    pod 'SDWebImage', '~> 5.0'
 
   target 'RxEmployeeTests' do
     inherit! :search_paths

@@ -22,6 +22,7 @@ struct EmployeeModel {
     var designationId: Int?
     var designation: String?
     var status: EmployeeStatus?
+    var image: String?
 }
 
 extension EmployeeModel: Equatable {

@@ -8,6 +8,7 @@
 import UIKit
 import RxCocoa
 import RxSwift
+import SDWebImage
 
 class EmployeeDetailsViewController: UIViewController {
     
@@ -36,6 +37,9 @@ class EmployeeDetailsViewController: UIViewController {
         self.nameLabel.text = viewModel.employeeData?.name
         self.departmentLabel.text = viewModel.employeeData?.department
         self.designationLabel.text = viewModel.employeeData?.designation
+        if let urlSting = viewModel.employeeData?.image, let url = URL(string: urlSting) {
+            self.employeeImageView.sd_setImage(with: url)
+        }
         
 //        _ = viewModel.employeeData.subscribe { [weak self] value in
 //            guard let `self` = self else {return}
