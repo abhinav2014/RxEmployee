@@ -1,0 +1,6 @@
+framework module Pods_RxEmployee_RxEmployeeUITests {
+  umbrella header "Pods-RxEmployee-RxEmployeeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
